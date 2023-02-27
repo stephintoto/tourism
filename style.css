@@ -1,32 +1,47 @@
+.navbar{
+    border: 2px solid black;
+    display: flex;
+    margin: 10px;
+    padding: 2px;
+    justify-content: space-around;
+    background-color: rgb(205, 232, 224);
+    align-items: center;
+}
+.navbar a:hover {
+    text-decoration-color: red;
+}
+.div2{
+    display: contents;
+    justify-content: center;
+}    
+p{
+    text-align-last: left;
+}
 
-    .navbar {
-      display: flex;
-      background-color: rgba(45, 48, 37, 0.742);
-    
-      margin: 10px;
-      padding: 20px;
-      font-size: 30px;
-
-      justify-content: space-around;
-
-    }
-    h1{ text-align: center;}
-    .image{
-        display:flex;
-        justify-content:space-around;
-        margin:50px;
-      
-    }
-    .center
-    {
-     line-height: 1.5;
-     display: inline-block;
-     border:rgba(21, 187, 173, 0.742);
-     vertical-align: middle;
-    }
-    .detail
-    {
-        display: flex;
-        justify-content: space-around;
-        text-align: right;
-    }
+.pic{
+    display: flex;
+    justify-content: center;
+    ;
+}
+.text{
+     background-color: blueviolet;
+     text-align: center;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size:xx-large;
+     color:aliceblue;
+     padding: 20px;
+     width: 100px;
+     border-radius: 10px;
+     margin: auto;
+     width: 500px;
+     padding:50px;
+}
+.map{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+.title{
+    display: contents;
+    justify-content: center;
+}
